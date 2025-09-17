@@ -12,7 +12,7 @@ header{
     width: 100%;
     position: fixed;
     border-bottom: 1px solid #000;
-    background-color: #cec;
+    background-color: #dde;
     z-index: 10;
 }
 .blank{
@@ -48,8 +48,8 @@ h1{
     background-color: #444;
     pointer-events: none;
 }
-.greenbutton{
-    background-color: #2e7073;
+.bluebutton{
+    background-color: #66b;
     pointer-events: all;
 }
 
@@ -162,7 +162,7 @@ tr{
 
 #on{
     display: inline-block;
-    background-color: #8a8;
+    background-color: #88a;
     animation-name: loadon;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -174,7 +174,7 @@ tr{
 
 #off{
     display: inline-block;
-    background-color: #282;
+    background-color: #228;
     animation-name: loadoff;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -339,7 +339,7 @@ img{
     width: 140px;
     padding: 5px 10px;
     margin-left: calc(20vw - 90px);
-    background-color: #2e7073;
+    background-color: #66b;
     color: #fff;
     border-radius: 6px;
     white-space: none;
@@ -411,7 +411,7 @@ img{
     height: 40px;
     text-decoration: none;
     color: #fff;
-    background-color: #2e7073;
+    background-color: #66b;
     border-radius: 6px;
     left: calc(50% - 125px);
     margin-top: calc(80vh / 6 - 20px);
@@ -444,7 +444,7 @@ img{
     height: 40px;
     width: 120px;
     text-align: center;
-    background-color: #2e7073;
+    background-color: #66b;
     font-size: 20px;
     border: none;
     cursor: pointer;
