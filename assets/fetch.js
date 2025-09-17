@@ -250,7 +250,7 @@ function loaddata() {
                         }
                 };
                 document.getElementById("refresh").setAttribute("tabindex","1");
-                document.getElementById("refresh").setAttribute("class","greenbutton");
+                document.getElementById("refresh").setAttribute("class","bluebutton");
                 document.getElementById("loadcheck").removeAttribute("disabled");
                 reloadok = true;
                 if (aftimes !== undefined) {
@@ -324,7 +324,7 @@ document.getElementById("refresh").addEventListener("click", () => {
                         if (times[0] == aftimes[0]) {
                                 loadmsgboxelem.setAttribute("class","loadmsgboxred msgbox");
                                 document.getElementById("refresh").setAttribute("tabindex","1");
-                                document.getElementById("refresh").setAttribute("class","greenbutton");
+                                document.getElementById("refresh").setAttribute("class","bluebutton");
                                 document.getElementById("loadcheck").removeAttribute("disabled");
                                 reloadok = true;
                                 loadmsgelem.appendChild(document.createTextNode("新しいメッセージはありません。"));
@@ -404,7 +404,7 @@ setInterval(() => {
         } else {
                 if (loadwas == 1) {
                         document.getElementById("refresh").setAttribute("tabindex","1");
-                        document.getElementById("refresh").setAttribute("class","greenbutton");
+                        document.getElementById("refresh").setAttribute("class","bluebutton");
                         loadwas = 0;
                         reloadok = true;
                 };
