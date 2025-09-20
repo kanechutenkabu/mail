@@ -31,10 +31,10 @@ const tletter = ["ｔ","ʈ","𝘵","𝒕","𝗍","𝐭","𖼹"];
 const largetletter = ["Т","Τ","Ｔ","𐊗","𐊱","𐤯","Ꭲ","𖼊","𑢼","ߠ","ꓔ","𑫝","𐨝","𐝇","𖩋","𐍄"];
 
 
-const username = ["sigma","Tanatana792","AKT","misan"];
-const userpass = ["sigma/17291268","Tanatana792/206","AKT/299792458","misan/2042"];
-const noslashusername = ["AKT","sigma","Tanatana792","misan"]
-const noslashuserpass = ["299792458","17291268","206","2042"]
+const username = ["sigma","Tanatana792","AKT","misan","mama"];
+const userpass = ["sigma/17291268","Tanatana792/206","AKT/299792458","misan/2042","mama"];
+const noslashusername = ["AKT","sigma","Tanatana792","misan","mama"]
+const noslashuserpass = ["299792458","17291268","206","2042","mama"]
 
 let bodytag = document.getElementById("body");
 
